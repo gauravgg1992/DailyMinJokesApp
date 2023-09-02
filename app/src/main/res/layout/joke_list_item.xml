@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:layout_marginTop="10dp"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:background="@drawable/layout_bg"
+
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="16dp"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="18dp"
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:text="DESCRIPTION"
+                android:textColor="@color/list_text"
+                android:textSize="15sp"
+                />
+
+        <TextView
+            android:layout_below="@+id/tvDescription"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="18dp"
+            android:id="@+id/tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="DESCRIPTION"
+            android:textColor="@color/list_text"
+            android:textSize="10sp"
+            />
+
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginLeft="4dp"
+        android:src="@drawable/emoji"
+        android:id="@+id/ivImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        />
+    </FrameLayout>
+</LinearLayout>
