@@ -37,7 +37,7 @@ class JokesViewModel(
                 jokesList.postValue(Resource.Error(e.message.toString()))
             }
 
-            delay(5000)
+            delay(60000)
         }
 
     }
